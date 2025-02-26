@@ -51,7 +51,7 @@ const Tips = () => {
       <Hero
         title="Tips & Strategies"
         subtitle="Practical ways to manage social anxiety in your everyday life."
-        image="/placeholder.svg"
+        image="https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80"
         imageAlt="Teen practicing relaxation techniques"
       />
 

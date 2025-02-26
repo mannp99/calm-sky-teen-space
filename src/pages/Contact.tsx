@@ -57,7 +57,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "support@becalmteen.org",
+      content: "support@confidenceconnect.org",
       subtitle: "We'll respond within 48 hours",
       color: "bg-skyblue-light text-skyblue"
     },
@@ -75,7 +75,7 @@ const Contact = () => {
       <Hero
         title="Contact Us"
         subtitle="Reach out for support, questions, or more information about social anxiety."
-        image="/placeholder.svg"
+        image="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80"
         imageAlt="Support team helping teens"
       />
 

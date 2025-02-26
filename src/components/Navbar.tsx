@@ -46,7 +46,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center">
             <NavLink to="/" className="text-skyblue font-bold text-xl md:text-2xl tracking-tight">
-              BeCalmTeen
+              Confidence Connect
             </NavLink>
           </div>
           

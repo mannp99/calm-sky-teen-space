@@ -9,7 +9,7 @@ const SocialAnxiety = () => {
       <Hero
         title="Understanding Social Anxiety"
         subtitle="Learn about social anxiety, its symptoms, and how it impacts teenagers."
-        image="/placeholder.svg"
+        image="https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80"
         imageAlt="Teen experiencing social anxiety"
       />
 

@@ -40,7 +40,7 @@ const Index = () => {
         subtitle="A safe space for teens to understand, manage, and overcome social anxiety together."
         buttonText="Learn More"
         buttonLink="/social-anxiety"
-        image="/placeholder.svg"
+        image="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80"
         imageAlt="Teenagers supporting each other"
       />
 
@@ -49,7 +49,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">How We Can Help</h2>
             <p className="text-lg text-gray-700">
-              BeCalmTeen provides resources, tips, and support specifically designed for teenagers dealing with social anxiety.
+              Confidence Connect provides resources, tips, and support specifically designed for teenagers dealing with social anxiety.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ const Index = () => {
               </div>
               <div className="md:w-1/2 bg-gray-100 flex items-center justify-center p-12">
                 <img 
-                  src="/placeholder.svg" 
+                  src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" 
                   alt="Teens supporting each other" 
                   className="w-full h-64 object-cover rounded-lg shadow-lg" 
                 />
