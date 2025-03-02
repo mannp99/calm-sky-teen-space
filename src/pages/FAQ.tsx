@@ -61,7 +61,7 @@ const FAQ = () => {
       <Hero
         title="Frequently Asked Questions"
         subtitle="Find answers to common questions about social anxiety in teenagers."
-        image="https://images.unsplash.com/photo-1618355776464-e9c39cd25b03?ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80"
+        image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=2500&q=80"
         imageAlt="Teen thinking about questions"
       />
 

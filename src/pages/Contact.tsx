@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MessageSquare, Shield } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 import { useState } from "react";
 import { toast } from "@/components/ui/use-toast";
 
@@ -50,23 +50,16 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Crisis Helpline",
-      content: "(800) 273-8255",
+      content: "123456789",
       subtitle: "Available 24/7",
       color: "bg-red-50 text-red-600"
     },
     {
       icon: Mail,
       title: "Email Us",
-      content: "support@confidenceconnect.org",
+      content: "confidenceconnect@gmail.com",
       subtitle: "We'll respond within 48 hours",
       color: "bg-skyblue-light text-skyblue"
-    },
-    {
-      icon: MessageSquare,
-      title: "Text Support",
-      content: "Text HOME to 741741",
-      subtitle: "For crisis text line",
-      color: "bg-amber-50 text-amber-600"
     }
   ];
 
@@ -88,7 +81,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
             {contactOptions.map((option, index) => (
               <Card key={index} className="border-0 shadow-sm hover:shadow-md transition-all duration-300">
                 <CardHeader className="text-center">
@@ -110,7 +103,7 @@ const Contact = () => {
               <CardHeader>
                 <div className="flex items-center justify-center mb-4">
                   <div className="bg-skyblue-light/50 text-skyblue rounded-full p-2">
-                    <Shield className="h-6 w-6" />
+                    <Phone className="h-6 w-6" />
                   </div>
                 </div>
                 <CardTitle className="text-center text-2xl">Send Us a Message</CardTitle>
@@ -168,30 +161,6 @@ const Contact = () => {
                 </p>
               </CardFooter>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      <section className="section-padding bg-skyblue-light/20">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-xl shadow-md p-8">
-              <h3 className="text-2xl font-bold mb-4">Important Note About Emergencies</h3>
-              <div className="p-4 bg-red-50 text-red-700 rounded-lg mb-4">
-                <p className="font-medium">
-                  If you're experiencing a mental health emergency or having thoughts of harming yourself, please:
-                </p>
-                <ul className="list-disc pl-5 mt-2 space-y-1">
-                  <li>Call 911 or your local emergency number immediately</li>
-                  <li>Go to your nearest emergency room</li>
-                  <li>Call the National Suicide Prevention Lifeline at 988 or 1-800-273-8255</li>
-                  <li>Text HOME to 741741 to reach the Crisis Text Line</li>
-                </ul>
-              </div>
-              <p>
-                Remember, reaching out for help is a sign of strength. You don't have to face social anxiety or any other mental health challenge alone.
-              </p>
-            </div>
           </div>
         </div>
       </section>
