@@ -2,8 +2,6 @@
 import { SocialIcons } from './SocialIcons';
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
-  
   return (
     <footer className="bg-skyblue-light/50 py-8">
       <div className="container-custom mx-auto">
@@ -13,7 +11,7 @@ export function Footer() {
           </div>
           
           <div className="text-sm text-gray-600">
-            <p>© {currentYear} Confidence Connect.</p>
+            <p>Confidence Connect</p>
             <p className="mt-1">A resource for teens dealing with social anxiety.</p>
           </div>
         </div>
