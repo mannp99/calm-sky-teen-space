@@ -13,7 +13,7 @@ export function Footer() {
           </div>
           
           <div className="text-sm text-gray-600">
-            <p>© {currentYear} Confidence Connect. All rights reserved.</p>
+            <p>© {currentYear} Confidence Connect.</p>
             <p className="mt-1">A resource for teens dealing with social anxiety.</p>
           </div>
         </div>
